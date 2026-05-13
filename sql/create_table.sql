@@ -10,5 +10,5 @@ CREATE TABLE IF NOT EXISTS raw_transactions (
     oldbalanceDest NUMERIC(18,2) NOT NULL,
     newbalanceDest NUMERIC(18,2) NOT NULL,
     isFraud INT NOT NULL,
-    isFraudFlagged INT NOT NULL
-)
+    isFlaggedFraud INT NOT NULL
+);
