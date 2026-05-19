@@ -35,7 +35,6 @@ def load_data(engine):
     transactions_data_chunk = pd.read_csv(CSV_PATH, nrows=500000, chunksize=CHUNK_SIZE)
 
     for i, chunk in enumerate(transactions_data_chunk):
-        chunk.columns = chunk.columns.str.lower()
         print(f'Loading chunk {i + 1}/{total_chunks}')
 
 
