@@ -1,1 +1,0 @@
-ALTER TABLE raw_transactions RENAME COLUMN "oldbalanceOrig" TO "oldbalanceOrg";
