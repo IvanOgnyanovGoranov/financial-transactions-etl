@@ -1,0 +1,1 @@
+TRUNCATE TABLE clean_transactions;
